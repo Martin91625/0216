@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("ora");
-        Solution.task02();
+        Array.task01();
     }
 }
