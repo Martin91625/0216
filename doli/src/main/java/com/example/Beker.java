@@ -11,11 +11,11 @@ public class Beker {
 
         try(Scanner sc = new Scanner(System.in)){
             
-            for(int i = 1; i<=5; i++){
+            for(int i = 0; i < osszPontszam.length; i++){
 
                 do{
 
-                    System.out.printf("%d. feladatban elért pontszám: ", i);
+                    System.out.printf("%d. feladatban elért pontszám: ", i + 1);
                     String pontStr = sc.nextLine();
 
                     try{pont = Integer.parseInt(pontStr);}
